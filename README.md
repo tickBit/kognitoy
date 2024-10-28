@@ -11,17 +11,17 @@ The app is designed for Android.
 The sound effects are from https://orangefreesounds.com/ with CC BY-NC 4.0 license (https://creativecommons.org/licenses/by-nc/4.0/)
 The sounds are converted to ogg format from the original mp3 format and shortened a bit from the original form.
 
-* Single Cat Meow Sound Effect
+* Single Cat Meow Sound Effect (cat_meow.ogg)
 
 Artist: Alexander, https://orangefreesounds.com/single-cat-meow-sound-effect/
 
 
-* Loud Guard Dogs Barking Sound Effect
+* Loud Guard Dogs Barking Sound Effect (dog_bark.ogg)
 
 Artist: Alexander, https://orangefreesounds.com/loud-guard-dogs-barking-sound-effect/
 
 
-* Bird Call Sound Effect
+* Bird Call Sound Effect (bird_sound.ogg)
 
 Artist: Alxeander, https://orangefreesounds.com/bird-call-sound-effect/
 
