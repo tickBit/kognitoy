@@ -2,7 +2,7 @@
 
 Simple interactive app for 1-2 year(s) old children.
 
-Meant to develop cognitive skills for very young children.
+Meant to develop cognitive skills of very young children.
 
 The app is designed for Android.
 
