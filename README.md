@@ -26,3 +26,15 @@ Artist: Alexander, https://orangefreesounds.com/loud-guard-dogs-barking-sound-ef
 Artist: Alxeander, https://orangefreesounds.com/bird-call-sound-effect/
 
 Please notice the license for sound effects, if you use the sound effects in your project.
+
+## Using the app
+
+There are three different animal pictures. First appears one of them, then the user should find the same animal from group of three animals.
+
+Double tap from "ghost screen" or congratualtions screen will restart the app.
+
+Screenshot:
+
+![kognitoy](https://github.com/user-attachments/assets/5e1e7785-e69f-42b9-8d57-f8290bedf3df)
+
+
