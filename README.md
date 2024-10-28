@@ -25,7 +25,11 @@ Artist: Alexander, https://orangefreesounds.com/loud-guard-dogs-barking-sound-ef
 
 Artist: Alxeander, https://orangefreesounds.com/bird-call-sound-effect/
 
-Please notice the license for sound effects, if you use the sound effects in your project.
+Please notice the license for sound effects above, if you use the sound effects in your project.
+
+* win.ogg
+
+This sound is made by me and its copyright is public domain.
 
 ## Using the app
 

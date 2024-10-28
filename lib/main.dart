@@ -104,6 +104,7 @@ class _AnimalGameState extends State<AnimalGame> with TickerProviderStateMixin {
 void _checkConditionAndAnimate() {
   if (_answered && !_wrong) {
     _controller.repeat(reverse: true);
+    _playSound('assets/win.ogg');
   } else {
     _controller.stop();
   }
