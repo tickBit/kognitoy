@@ -31,7 +31,7 @@ Please notice the license for sound effects, if you use the sound effects in you
 
 There are three different animal pictures. First appears one of them, then the user should find the same animal from group of three animals.
 
-Double tap from "ghost screen" or congratualtions screen will restart the app.
+Double tap from "ghost screen" or congratulations screen will restart the app.
 
 Screenshot:
 
