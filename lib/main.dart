@@ -214,8 +214,8 @@ void _updateAnswerStatus(bool answered, bool wrong) {
                   if (_answered && !_wrong)
                     for (int i = 0; i < 18; i++)
                       Positioned(
-                        left: cos(_angle + i * pi / 9) * 275 + width / 2,
-                        top: sin(_angle + i * pi / 9) * 275 + height / 2 - 80,
+                        left: cos(_angle + i * pi / 9) * width * 0.25 + width / 2,
+                        top: sin(_angle + i * pi / 9) * height * 0.25 + height / 2 - 80,
                         child: Image.asset("assets/heart.png", width: 100, height: 100),
                       ),
                   if (!_row)
