@@ -37,4 +37,4 @@ Screenshot:
 
 ![kognitoy](https://github.com/user-attachments/assets/5e1e7785-e69f-42b9-8d57-f8290bedf3df)
 
-
+All graphics are made with AI.
