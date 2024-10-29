@@ -85,7 +85,7 @@ class _AnimalGameState extends State<AnimalGame> with TickerProviderStateMixin {
     animation = Tween<double>(begin: 0, end: 300).animate(_controller)
       ..addListener(() {
         setState(() {
-          _angle += pi / 180.0;
+          _angle += 0.5 * pi / 180.0;
         });
       });
     _controller.repeat();
