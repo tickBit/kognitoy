@@ -129,8 +129,12 @@ void _updateAnswerStatus(bool answered, bool wrong) {
   Widget build(BuildContext context) {
     const spacer = Padding(padding: EdgeInsets.all(4));
     
-    double width = MediaQuery.sizeOf(context).width;
-    double height = MediaQuery.sizeOf(context).height;
+    Size size = MediaQuery.of(context).size;
+    double width = size.width;
+    double height = size.height;
+
+    var padding = MediaQuery.of(context).padding;
+    var safeHeight = height - padding.top - padding.bottom;
 
     // Set landscape orientation
     SystemChrome.setPreferredOrientations([
@@ -213,11 +217,12 @@ void _updateAnswerStatus(bool answered, bool wrong) {
               child: Stack(
                 children: [
                   if (_answered && !_wrong)
+
                     for (int i = 0; i < 18; i++)
                       Positioned(
-                        left: cos(_angle + i * pi / 9) * width * 0.25 + width / 2,
-                        top: sin(_angle + i * pi / 9) * height * 0.25 + height / 2 - 80,
-                        child: Image.asset("assets/heart.png", width: 100, height: 100),
+                        left: cos(_angle + i * pi / 9) * width * 0.22 + width * 0.5 - kBottomNavigationBarHeight,
+                        top: sin(_angle + i * pi / 9) * height * 0.22 + safeHeight * 0.5 - AppBar().preferredSize.height,
+                        child: Image.asset("assets/heart.png", width: width * 0.2, height: safeHeight * 0.2),
                       ),
                   if (!_row)
                     GestureDetector(
@@ -239,7 +244,7 @@ void _updateAnswerStatus(bool answered, bool wrong) {
                         
                       }),
                       child: CircleAvatar(
-                        radius: height *0.4,
+                        radius: height *0.38,
                         foregroundColor: Colors.red,
                         child: Padding(
                           padding: const EdgeInsets.all(8),
@@ -266,7 +271,7 @@ void _updateAnswerStatus(bool answered, bool wrong) {
                               })
                           },
                           child: CircleAvatar(
-                            radius: width * 0.32 * 0.5,
+                            radius: width * 0.31 * 0.5,
                             foregroundColor: Colors.red,
                             child: Padding(
                               padding: const EdgeInsets.all(8),
@@ -291,7 +296,7 @@ void _updateAnswerStatus(bool answered, bool wrong) {
                               })
                           },
                           child: CircleAvatar(
-                            radius: width * 0.32 * 0.5,
+                            radius: width * 0.31 * 0.5,
                             foregroundColor: Colors.red,
                             child: Padding(
                               padding: const EdgeInsets.all(8),
@@ -316,7 +321,7 @@ void _updateAnswerStatus(bool answered, bool wrong) {
                               })
                           },
                           child: CircleAvatar(
-                            radius: width * 0.32 * 0.5,
+                            radius: width * 0.31 * 0.5,
                             foregroundColor: Colors.red,
                             child: Padding(
                               padding: const EdgeInsets.all(8),
@@ -326,7 +331,7 @@ void _updateAnswerStatus(bool answered, bool wrong) {
                         ),
                       ],
                     ),
-                  if (_wrong && _answered) Image.asset("assets/ghost.png", height: height * 0.4),
+                  if (_wrong && _answered) Image.asset("assets/ghost.png", height: height * 0.45),
                 ],
               ),
             ),
